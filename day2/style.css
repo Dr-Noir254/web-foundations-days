@@ -14,7 +14,7 @@ body {
 
 /* Header */
 header {
-  background-color: #333;
+  background-color: #092901;
   color: white;
   text-align: center;
   padding: 30px 20px;
@@ -127,20 +127,20 @@ button {
   padding: 10px 18px;
   border: none;
   border-radius: 4px;
-  background-color: #333;
+  background-color: #092901;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-  background-color: #555;
+  background-color: #036629;
   transform: translateY(-2px);
 }
 
 /* Footer */
 footer {
-  background-color: #333;
+  background-color: #092901;
   color: white;
   text-align: center;
   padding: 20px;
