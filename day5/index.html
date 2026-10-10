@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickNotes - Day 5 Users</title>
+    <script src="users.js" defer></script>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            background-color: #f4f7fb;
+            color: #222;
+        }
+
+        h1 {
+            color: #2457a7;
+        }
+
+        button,
+        input {
+            font: inherit;
+            padding: 10px 12px;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #2457a7;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            background-color: #888;
+            cursor: not-allowed;
+        }
+
+        input {
+            width: 100%;
+            margin: 8px 0 16px;
+            border: 1px solid #aaa;
+        }
+
+        #status {
+            min-height: 24px;
+            font-weight: bold;
+        }
+
+        #users-list {
+            padding: 0;
+            list-style: none;
+        }
+
+        #users-list li {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 16px;
+            margin-bottom: 12px;
+            overflow-wrap: anywhere;
+        }
+
+        #users-list h2 {
+            margin-top: 0;
+            color: #2457a7;
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Day 5: Users Directory</h1>
+        <p>Load users from a REST API and filter them by name.</p>
+    </header>
+
+    <main>
+        <button id="load-users" type="button">Load Users</button>
+
+        <p id="status" role="status" aria-live="polite">
+            Click "Load Users" to get started.
+        </p>
+
+        <label for="filter-input">Filter users by name:</label>
+        <input
+            type="text"
+            id="filter-input"
+            placeholder="Enter a user's name"
+        >
+
+        <ul id="users-list"></ul>
+    </main>
+</body>
+</html>
