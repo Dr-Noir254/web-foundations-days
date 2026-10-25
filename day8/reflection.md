@@ -1,0 +1,7 @@
+# Course Reflection
+
+The most difficult concept in this course was working with JavaScript, especially fetching data from APIs, handling asynchronous operations, and updating webpages dynamically. At first, understanding how functions, events, and promises work together was challenging. I overcame this by practising through daily assignments, using the browser console to identify errors, and breaking problems into smaller steps. These exercises helped me become more confident in writing JavaScript and understanding how webpages respond to user actions.
+
+For my CloudQuiz capstone, I would improve the user experience by making the interface more intuitive, refining the visual design, and ensuring that the application works smoothly on different screen sizes. I would also improve the explanations provided after users answer questions and conduct more testing to identify possible bugs. Although we have not yet received formal feedback, reviewing my own work has helped me identify areas that could be improved.
+
+Next, I plan to learn more advanced JavaScript, including asynchronous programming, API integration, and writing reusable code. I also want to explore frontend frameworks such as React and learn how to connect web applications to databases and backend services. Additionally, I will continue practising Git and GitHub to improve my version control and collaboration skills. Overall, this course has strengthened my problem-solving abilities and given me a foundation for building more interactive and practical web applications.
